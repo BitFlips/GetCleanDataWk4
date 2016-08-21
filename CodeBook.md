@@ -1,4 +1,8 @@
 ```text
+============================================================
+======== Code Book for Tidy File: tidy_data.txt  ===========
+============================================================
+
 Contents: 1) Data Set Code Book
           2) Feature Selection Details
 
@@ -14,8 +18,8 @@ This set of variables are the main identifiers of subjects and involved activiti
  [2]    "activity"              - six human subject activities:
           laying                   -subject laying down
           sitting                  -subject sitting
- 	  standing                 -subject standing
-	  walking                  -subject walking
+          standing                 -subject standing
+          walking                  -subject walking
           walking_downstairs       -subject walking downstairs
 	  walking_upstairs         -subject walking upstairs
 
@@ -123,9 +127,12 @@ pass Butterworth filter with a corner frequency of 0.3 Hz.
 
 Subsequently, the body linear acceleration and angular velocity were derived in time to
 obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these
-three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag,
+tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
 
-Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-xyz, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-xyz,
+fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag.
+(Note the 'f' to indicate frequency domain signals). 
 
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
