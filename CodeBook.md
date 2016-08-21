@@ -21,7 +21,7 @@ This set of variables are the main identifiers of subjects and involved activiti
           standing                 -subject standing
           walking                  -subject walking
           walking_downstairs       -subject walking downstairs
-	  walking_upstairs         -subject walking upstairs
+          walking_upstairs         -subject walking upstairs
 
 The following variables (cols) are the mean of the means for
 the associated intertial measurements with suffix set.
