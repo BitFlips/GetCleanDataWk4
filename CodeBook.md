@@ -1,4 +1,4 @@
-...text
+```text
 Contents: 1) Data Set Code Book
           2) Feature Selection Details
 
@@ -147,4 +147,4 @@ fBodyAccMag
 fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
-...
+```
